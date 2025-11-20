@@ -281,6 +281,28 @@ main {
     line-height: 1.8;
 }
 
+/* Current Focus Section */
+.current-focus {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    border: 2px solid #f39c12;
+}
+
+.current-focus h3 {
+    font-size: 1.5rem;
+    color: #d68910;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+
+.current-focus p {
+    color: #d68910;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 /* Timeline */
 .timeline {
     margin: 3rem 0;

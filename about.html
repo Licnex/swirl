@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Momin Khan</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="assets/pfp.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,16 +22,20 @@
 
     <main>
         <section class="about-content">
+            <img src="assets/pfp.png" alt="Momin Khan" class="about-profile-pic">
             <h2>Momin Khan</h2>
             <p class="intro-paragraph">
-                <strong>Developer -- Grade 10 -- Lahore Grammar School</strong><br>
-                 I love problem solving. The core essence of it. thats why I love maths, physics ,and right now, competitive. They're the best way I can express problem solving in the truest sense.
+                <strong>Developer · Grade 10 · Lahore Grammar School</strong><br>
+                I love problem solving. The core essence of it. That's why I love maths, physics, and right now, competitive programming. They're the best way I can express problem solving in the truest sense.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Computer setup with code">
+            <div class="current-focus">
+                <h3>Currently Working On</h3>
+                <p>Competitive programming and algorithmic problem solving</p>
+            </div>
 
             <div class="timeline">
-                <h3 id="studies">Studies</h3>
+                <h3>Studies</h3>
                 <div class="timeline-item">
                     <h4>LGS Jt Senior Boys Campus</h4>
                     <p>Where I survived my O levels.</p>
@@ -42,54 +46,53 @@
                 </div>
             </div>
 
-            <div class="case-study" id="sprong">
-                <h3>Sprong</h3>
-                <p class="case-date">Case Study · November 14, 2024</p>
-                <h4>Overview</h4>
-                <p>In this project, I made my own game inspired by classic Pong. The game was made to run on Sprig, a low-level game console, blending nostalgic mechanics with modern deployment.</p>
-                <h4>Key Features</h4>
-                <ul>
-                    <li><strong>Multiplayer and Singleplayer capability:</strong> The game allows for both single player and multiplayer with the advent of a custom bot solely for pong.</li>
-                    <li><strong>Browser and Sprig compatibility:</strong> Thanks to the website of Sprig being able to run games directly on their website, you don't even need to own a Sprig to play.</li>
-                </ul>
-                <h4>Technologies Used</h4>
-                <ul>
-                    <li><strong>JavaScript:</strong> Since all Sprig games are made with JavaScript.</li>
-                    <li><strong>Sprig:</strong> For running the game.</li>
-                    <li><strong>GitHub Actions:</strong> For automating the pipeline and syncing design changes to the repository.</li>
-                </ul>
-                <h4>Challenges &amp; Learnings</h4>
-                <p>One of the biggest challenges was just removing and figuring out bugs. I fixed one bug, another one appeared. I am pretty sure I learned something about myself debugging the code.</p>
-                <h4>Outcome</h4>
-                <p>A fun and accessible game that brings the joy of Pong to new platforms.</p>
-            </div>
+            <div class="projects-section">
+                <h3>My Projects</h3>
+                
+                <div class="project-detail">
+                    <h4>Sprong</h4>
+                    <p class="project-date">November 14, 2024</p>
+                    <p>In this project, I made my own game inspired by classic Pong. The game was made to run on Sprig, a low-level game console, blending nostalgic mechanics with modern deployment.</p>
+                    <h5>Key Features</h5>
+                    <ul>
+                        <li><strong>Multiplayer and Singleplayer capability:</strong> The game allows for both single player and multiplayer with the advent of a custom bot solely for pong.</li>
+                        <li><strong>Browser and Sprig compatibility:</strong> Thanks to the website of Sprig being able to run games directly on their website, you don't even need to own a Sprig to play.</li>
+                    </ul>
+                    <h5>Technologies Used</h5>
+                    <ul>
+                        <li><strong>JavaScript:</strong> Since all Sprig games are made with JavaScript.</li>
+                        <li><strong>Sprig:</strong> For running the game.</li>
+                        <li><strong>GitHub Actions:</strong> For automating the pipeline and syncing design changes to the repository.</li>
+                    </ul>
+                    <a class="github-link" href="https://github.com/hackclub/sprig/blob/main/games/Sprong.js" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
 
-            <div class="case-study" id="linefollower">
-                <h3>Making a LineFollower</h3>
-                <p class="case-date">Case Study · April 8, 2024</p>
-                <h4>Overview</h4>
-                <p>Development of an advanced LineFollower using the PID algorithm, PCB, and many more technologies. An advanced line-following robot powered by precise control algorithms, custom circuit boards, and detailed documentation.</p>
-                <h4>Key Features</h4>
-                <ul>
-                    <li><strong>PID:</strong> Implemented a Proportional-Integral-Derivative control algorithm to ensure precise and stable line following.</li>
-                    <li><strong>PCB:</strong> Designed custom printed circuit boards to integrate all components efficiently.</li>
-                    <li><strong>Documentation and Usage Guidelines:</strong> Developed comprehensive documentation so that anyone else may use the code or designs for ease.</li>
-                </ul>
-                <h4>Technologies Used</h4>
-                <ul>
-                    <li><strong>KiCad:</strong> For making good usable and flexible PCB boards.</li>
-                    <li><strong>PlatformIO IDE:</strong> For uploading code across the microcontroller easily.</li>
-                    <li><strong>QTR IR sensors:</strong> For a responsive and fast array of sensors.</li>
-                    <li><strong>ESP32-S3 WROOM 2:</strong> For a fast computation-wise microcontroller with the flexibility of having a WiFi and Bluetooth module to customize PID constants.</li>
-                </ul>
-                <p class="case-footer">&copy; 2025 / Momin Khan</p>
+                <div class="project-detail">
+                    <h4>LineFollower Robot</h4>
+                    <p class="project-date">April 8, 2024</p>
+                    <p>Development of an advanced LineFollower using the PID algorithm, PCB, and many more technologies. An advanced line-following robot powered by precise control algorithms, custom circuit boards, and detailed documentation.</p>
+                    <h5>Key Features</h5>
+                    <ul>
+                        <li><strong>PID:</strong> Implemented a Proportional-Integral-Derivative control algorithm to ensure precise and stable line following.</li>
+                        <li><strong>PCB:</strong> Designed custom printed circuit boards to integrate all components efficiently.</li>
+                        <li><strong>Documentation and Usage Guidelines:</strong> Developed comprehensive documentation so that anyone else may use the code or designs for ease.</li>
+                    </ul>
+                    <h5>Technologies Used</h5>
+                    <ul>
+                        <li><strong>KiCad:</strong> For making good usable and flexible PCB boards.</li>
+                        <li><strong>PlatformIO IDE:</strong> For uploading code across the microcontroller easily.</li>
+                        <li><strong>QTR IR sensors:</strong> For a responsive and fast array of sensors.</li>
+                        <li><strong>ESP32-S3 WROOM 2:</strong> For a fast computation-wise microcontroller with the flexibility of having a WiFi and Bluetooth module to customize PID constants.</li>
+                    </ul>
+                    <a class="github-link" href="https://github.com/MominTheBoss/Line-Follower" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 / Momin Khan</p>
-        <p>Asia/Karachi · <a href="mailto:hello@mominkhan.codes?subject=Let%E2%80%99s%20Connect">Schedule a call</a> · <a href="https://github.com/mominkhan" target="_blank" rel="noopener">View on GitHub</a></p>
+        <p>Asia/Karachi · <a href="mailto:hello@mominkhan.codes?subject=Let%E2%80%99s%20Connect">Schedule a call</a> · <a href="https://github.com/MominTheBoss" target="_blank" rel="noopener">View on GitHub</a></p>
     </footer>
 </body>
 </html>
